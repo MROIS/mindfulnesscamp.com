@@ -1,1 +1,1 @@
-# mindfulnesscamp.com
+# mindfulnesscamp.org
