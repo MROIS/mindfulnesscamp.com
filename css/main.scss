@@ -1,0 +1,99 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base"
+;
+
+.masthead {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg.jpg");
+}
+
+
+.signup-section {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/bg-shore.jpg);
+}
+
+
+.schedule-section {
+
+}
+
+.schedule-warp{
+    padding-right:20px;
+    padding-left:20px;
+    padding: 20px 30px;
+    border: solid 1px #ddd;
+    background-color: #f5f5f5;
+    -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+    transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+
+.schedule-warp:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,.07);
+    border: solid 1px #161616;
+}
+
+.schedule-tag{
+    color:#fff;
+    background-color: #161616;
+    padding:3px 8px;
+    margin-right: 15px;
+    width: 90px;
+    text-align: center;
+}
+.schedule-header span{
+    display: inline-block;
+    margin-right:25px;
+}
+.schedule-header{
+    margin-bottom:80px;
+}
+.schedule-card{
+    position: relative;
+    margin-bottom: 0.7em;
+}
+.schedule-card:hover .insidebox {
+    transform: scale(1.033);
+    /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.schedule-card:hover:after {
+    background: #161616;
+    width: 25px;
+}
+.schedule-card:after {
+    height: 2px;
+    width: 22px;
+    background: #ddd;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    transition: all 0.3s ease-in;
+}
+.insidebox {
+    box-shadow: 0 0px 5px rgba(0,0,0,.07);
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in;
+/*    justify-content: center;*/
+}
+
+.day-one{
+    margin-bottom:50px;
+    font-weight: bold;
+    font-size: 20px;
+}
