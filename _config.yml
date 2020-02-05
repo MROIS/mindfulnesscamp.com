@@ -7,10 +7,10 @@
 
 # Site settings
 title: Mindfulness Camp | Buddhist Family Camp in Oregon
-email: retreat@mindfulnesscamp.com
+email: retreat@mindfulnesscamp.org
 description: "A mindfulness camp and Buddhist family camp in Oregon where we will learn ways to live more peaceful, centered lives with each other and the natural world."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mindfulnesscamp.com" # the base hostname & protocol for your site
+url: "https://mindfulnesscamp.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
